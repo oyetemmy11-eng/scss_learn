@@ -11,14 +11,30 @@
 $mainColor: #8b4022;
 $secColor: #039d3e;
 $thColor: #18b926;
-$textColr:  #fff;
+$textColor:  #fff;
 $marginLg: 20px 0;
 $green: #2fbc69;
 
+// :root{
+
+// }
 
 body{
     font-family: sans-serif;
     font-size: 16px;
     font-weight: 400;
     background-color: rebeccapurple;
+}
+
+h2{
+    font-weight: 900;
+    line-height: 1.3rem;
+    margin: 0 0 15px;
+    color: $textColor;
+}
+
+p{
+   line-height: 1.3rem;
+   margin: 0 0 15px 0;
+   color: $textColor; 
 }
